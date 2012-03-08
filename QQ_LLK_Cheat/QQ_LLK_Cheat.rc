@@ -1,0 +1,213 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\QQ_LLK_Cheat.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\QQ_LLK_Cheat.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 227, 99
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于该程序"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "QQ连连看外挂1.1 版",IDC_STATIC,40,10,73,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010.03",IDC_STATIC,40,26,87,8
+    LTEXT           "蜉蝣IT",IDC_STATIC,141,10,25,8
+    LTEXT           "QQ:644655955",IDC_STATIC,142,25,49,8
+    LTEXT           "访问我的主页：http://wwww.FuyouIT.com",IDC_STATIC_FUYOUIT_COM,38,42,149,8
+    LTEXT           "给我发邮件:FuyouIT@gmail.com",IDC_STATIC_FUYOUIT_MAILE,38,72,113,8
+    LTEXT           "查看其他产品：http://fuyouit.com/development",IDC_STATIC_Development,38,57,177,8
+END
+
+IDD_QQ_LLK_CHEAT_DIALOG DIALOGEX 0, 0, 402, 294
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "QQ连连看辅助软件 1.1（yisufuyou）"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "销块(Ctrl+Shift+D)",IDC_BUTTON_DONE,7,10,77,14
+    PUSHBUTTON      "刷新地图(Ctrl+Shift+F)",IDC_BUTTON_REFRESH_DATA,88,10,93,14
+    GROUPBOX        "",IDC_STATIC,3,2,394,28
+    PUSHBUTTON      "关于",IDC_BUTTON_ABOUT,285,9,29,14
+    CONTROL         "模拟鼠标动作",IDC_CHECK_SHOW_MOUSE_MOVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,328,12,60,10
+    PUSHBUTTON      "清除所有(Ctrl+Shift+C)",IDC_BUTTON_CLEAR_ALL,185,10,93,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,1
+ PRODUCTVERSION 1,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "蜉蝣IT"
+            VALUE "FileDescription", "QQ连连看辅助软件"
+            VALUE "FileVersion", "1.0.0.1(beta)"
+            VALUE "InternalName", "QQ_LLK_Cheat.exe"
+            VALUE "LegalCopyright", "(C) 蜉蝣IT。保留所有权利。"
+            VALUE "OriginalFilename", "QQ_LLK_Cheat.exe"
+            VALUE "ProductName", "QQ连连看外挂"
+            VALUE "ProductVersion", "1.1.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_QQ_LLK_CHEAT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 287
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_NOTIFIY MENU 
+BEGIN
+    POPUP "menu"
+    BEGIN
+        MENUITEM "显示主窗口",                       ID_MENU_MAIN_WINDOW
+        MENUITEM "模拟鼠标",                        ID_MENU_SHOW_MOUSE
+        MENUITEM "关于",                          ID_MENU_ABOUT
+        MENUITEM "退出",                          ID_MENU_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 QQ_LLK_Cheat(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\QQ_LLK_Cheat.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
