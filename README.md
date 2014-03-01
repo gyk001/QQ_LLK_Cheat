@@ -15,13 +15,13 @@
 ## 效果截图
 
 * 后台运行及快捷键提示
- ![后台提示](https://raw.github.com/gyk001/QQ_LLK/master/raw/llk_popup.png)
+ ![后台提示](https://raw.github.com/gyk001/QQ_LLK_Cheat/master/raw/llk_popup.png)
  
 * 刷新地图：软件会分析当前地图并渲染到自己界面上
- ![刷新地图](https://raw.github.com/gyk001/QQ_LLK/master/raw/flash_map.png)
+ ![刷新地图](https://raw.github.com/gyk001/QQ_LLK_Cheat/master/raw/flash_map.png)
  
 * 消除一组：
- ![刷新地图](https://raw.github.com/gyk001/QQ_LLK/master/raw/find.png)
+ ![刷新地图](https://raw.github.com/gyk001/QQ_LLK_Cheat/master/raw/find.png)
   
 
 ## 原理分析
@@ -38,7 +38,7 @@
 所以写了这个程序模拟QQ连连看，该程序并没有真正实现连连看的功能，
 
 只是模拟了点击方块，方块即消失或重现，因为这足以测试外挂。
-	![模拟器截图](https://raw.github.com/gyk001/QQ_LLK/master/raw/llk_demo.png)
+	![模拟器截图](https://raw.github.com/gyk001/QQ_LLK_Cheat/master/raw/llk_demo.png)
  
 如果需要真正连连看程序，请移步
 
