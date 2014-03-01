@@ -46,12 +46,12 @@ https://github.com/gyk001/LLK
 
 # 同时期的其他小游戏
 
-* [推箱子和地图编辑器](https://github.com/gyk001/BoxMan)
-* [连连看](https://github.com/gyk001/LLK)
-* [QQ连连看外挂和模拟器](https://github.com/gyk001/QQ_LLK_Cheat)
-* [数据结构图算法演示](https://github.com/gyk001/graph)
-* [节日时钟桌面堆雪](https://github.com/gyk001/DeskSnow)
-* [日语单词学习机](https://github.com/gyk001/JPWord)
+* [推箱子和地图编辑器](https://github.com/gyk001/BoxMan#readme)
+* [连连看](https://github.com/gyk001/LLK#readme)
+* [QQ连连看外挂和模拟器](https://github.com/gyk001/QQ_LLK_Cheat#readme)
+* [数据结构图算法演示](https://github.com/gyk001/graph#readme)
+* [节日时钟桌面堆雪](https://github.com/gyk001/DeskSnow#readme)
+* [日语单词学习机](https://github.com/gyk001/JPWord#readme)
 
 [wg]: https://github.com/gyk001/QQ_LLK_Cheat/raw/master/output/QQ连连看外挂.exe
 
