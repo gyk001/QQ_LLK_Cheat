@@ -53,6 +53,6 @@ https://github.com/gyk001/LLK
 * [节日时钟桌面堆雪](https://github.com/gyk001/DeskSnow)
 * [日语单词学习机](https://github.com/gyk001/JPWord)
 
-[wg]: https://github.com/gyk001/graph/raw/master/output/QQ连连看外挂.exe
+[wg]: https://github.com/gyk001/QQ_LLK_Cheat/raw/master/output/QQ连连看外挂.exe
 
-[mnq]: https://github.com/gyk001/graph/raw/master/output/QQ连连看模拟器.exe
+[mnq]: https://github.com/gyk001/QQ_LLK_Cheat/raw/master/output/QQ连连看模拟器.exe
