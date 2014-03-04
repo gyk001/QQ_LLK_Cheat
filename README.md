@@ -57,3 +57,7 @@ https://github.com/gyk001/LLK
 [wg]: https://github.com/gyk001/QQ_LLK_Cheat/raw/master/output/QQ连连看外挂.exe
 
 [mnq]: https://github.com/gyk001/QQ_LLK_Cheat/raw/master/output/QQ连连看模拟器.exe
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gyk001/qq_llk_cheat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
